@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Corinthia&family=Oleo+Script&family=Open+Sans:wght@300&display=swap');
+
+
+body {
+
+    background-color: rgb(63, 57, 51);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {}
+
+main h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(238, 164, 80);
+    margin-top: 2rem;
+}
+
+#food-items {
+    /* text-align: center;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 2rem; */
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 2rem 20rem;
+  padding: 0;
+
+
+
+
+}
+
+
+#food-item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+#food-item img {
+    height: 20rem;
+    border-radius: 6px;
+    object-fit: cover;
+
+}
+
+
+
+.description {
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0.2);
+    height: 8rem;
+
+
+
+}
+
+.description p {
+    color: rgb(68, 68, 68);
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.description a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(238, 164, 80);
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    
+    margin-bottom: 20px;
+
+}
+
+.description a:hover {
+    background-color: rgb(61, 165, 42);
+}
+
+
+@media screen and (max-width: 768px) {
+    main h2 {
+        font-size: 2.1rem;
+    }
+    #food-items{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+   
+     
+}
