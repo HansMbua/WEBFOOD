@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-main {}
+
 
 main h2 {
     text-align: center;
@@ -34,10 +34,6 @@ main h2 {
   gap: 16px;
   margin: 2rem 20rem;
   padding: 0;
-
-
-
-
 }
 
 
@@ -94,15 +90,22 @@ main h2 {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 50rem) {
     main h2 {
-        font-size: 2.1rem;
+        font-size: 1.5rem;
     }
     #food-items{
 
         display: flex;
         align-items: center;
         flex-direction: column;
+        margin: 0 auto;
+        
+    }
+    #food-item {
+        width: 80%;
+        height: 10%;
+       
     }
 
    

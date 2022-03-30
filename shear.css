@@ -86,6 +86,9 @@ nav ul {
     .menu-btn{
         display: flex;
     }
+    header a{
+        font-size: 30px;
+    }
 
 }
 
